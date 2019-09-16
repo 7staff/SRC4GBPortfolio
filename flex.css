@@ -1,0 +1,52 @@
+.flexwrap{
+display: flex;
+flex-wrap: wrap;
+width: 90%;
+position: relative;
+margin-bottom: 100px;
+margin-top: 100px;
+justify-content: center;
+align-items: center;
+}
+.cardcontain{
+width: 450px;
+background-color: aqua;
+border-width: 2px;
+border-style: inset;
+border-color: darkorange;
+border-radius: 10px;
+position: relative;
+margin-bottom: 5%;
+margin-top: 5%;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+
+}
+img{
+width: 100%;
+border-bottom: 10px solid red;
+
+}
+.cardtitle{
+text-align: center;
+margin-bottom: 10px;
+margin-top: 10px;
+font-size: 25px;
+font-weight: bold;
+font-family: 'Roboto Mono', monospace;
+width: 100%;
+
+display: block;
+}
+.carddetails{
+font-size: 20px;
+text-align: center;
+display: block;
+}
+.cardlink{
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+color: red;
+}
